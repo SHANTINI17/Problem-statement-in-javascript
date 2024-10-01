@@ -1,0 +1,29 @@
+
+let s=0;
+for(let i=0;i<5;i++){
+    let n=prompt("Enter the choice:");
+    let q=prompt("Enter the quantity:");
+    switch(n){
+        case "1":
+            s=s+(200*q);
+            break;
+        case "2":
+            s=s+(300*q);
+            break;
+        case "3":
+            s=s+(250*q);
+            break;
+        case "4":
+            s=s+(100*q);
+            break;
+        case "5":
+            s=s+(80*q);
+            break;
+        default:
+            break;
+    }
+}
+if(s>500){
+    s=s-((10/100)*s);
+}
+console.log(s);
