@@ -1,0 +1,12 @@
+let m=prompt("Enter the value of m:");
+let n=prompt("Enter the value of n:");
+if(m>n){
+    console.log("0");
+}
+else{
+    let s=0;
+    for(let i=m;i<=n;i++){
+        s=s+(i*i*i);
+    }
+    console.log(s);
+}
