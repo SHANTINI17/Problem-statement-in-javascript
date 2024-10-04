@@ -1,4 +1,4 @@
-3. let m=prompt("m:");
+let m=prompt("m:");
 let n=prompt("n:");
 let p=1;
 if(m>n)
