@@ -1,6 +1,5 @@
     let input = prompt("Enter the box values: ");
     let boxes = input.split(' ').map(Number);  
-    
     let count = 0;  
     let result = [];  
     for (let i = 0; i < boxes.length; i++) {
